@@ -6,8 +6,8 @@ Endpoints
 
 Method	| Path	| Description	| User authenticated	
 ------------- | ------------------------- | ------------- |:-------------:|
-POST	| /user/merchant	| Register new admin account (with admin role)	|  
-POST	| /user/client	| Register new client account	(with user role)|   | 
+POST	| /user/admin	| Register new admin account (with admin role)	|  
+POST	| /user/createUser	| Register new client account	(with user role)|   | 
 GET	| /userProfile	| Get current logged in user information | × 
 
 ### Product Service
